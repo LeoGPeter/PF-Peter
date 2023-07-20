@@ -1,0 +1,79 @@
+@import "./utilidades/reset.scss";
+
+@import "./secciones/header";
+@import "./secciones/main-index";
+@import "./secciones/main-catalogo";
+@import "./secciones/main-empresa";
+@import "./secciones/main-contacto";
+@import "./secciones/main-instructivo";
+@import "./secciones/footer";
+
+
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        justify-content: center;
+    }
+
+    .main h1 {
+        text-transform: uppercase;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .main img {
+        display: flex;
+        width: 380px;
+        margin: 3px;
+        padding: 3px;
+        border-radius: 10px;
+    }
+
+    .main-modelos {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap
+    }
+
+
+    .main-modelos img {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        height: 310px;
+    }
+
+    .video-catalogo {
+        width: 450px;
+    }
+
+    .footer {
+        height: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .footer img {
+        width: 80px;
+    }
+
+}

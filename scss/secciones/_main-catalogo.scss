@@ -1,0 +1,47 @@
+.main-modelos {
+    font-family: "TCCC-UnityHeadline-Bold", "TCCC-UnityHeadline", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    background-color: gray;
+}
+
+.main-modelos h1 {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    color: white;
+}
+
+
+
+.main-modelos img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    padding: 4px;
+
+}
+
+
+.img-carrusel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.video-catalogo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 30px;
+}

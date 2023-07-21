@@ -12,7 +12,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; }
 
 .logo-principal {
   width: 100px;
@@ -54,7 +58,8 @@ a:hover {
   flex-wrap: wrap;
   text-transform: uppercase;
   background-color: gray;
-  color: white; }
+  color: white;
+  margin-top: 280px; }
 
 .main h1 {
   text-transform: uppercase;

@@ -87,12 +87,13 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   text-transform: uppercase;
-  background-color: gray; }
+  background-color: gray;
+  margin-top: 32vh; }
 
 .main-modelos h1 {
-  text-align: center;
-  padding: 15px;
-  margin: 15px;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 5px;
   color: white; }
 
 .main-modelos img {
@@ -152,7 +153,8 @@ a:hover {
   flex-wrap: wrap;
   text-transform: uppercase;
   background-color: gray;
-  color: white; }
+  color: white;
+  margin-top: 32vh; }
 
 .main-contacto div {
   margin: 5px; }
@@ -175,6 +177,11 @@ a:hover {
   font-size: 17px;
   border: none;
   border-radius: 10px; }
+
+.main-contacto h1 {
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 5px; }
 
 .main .Instructivo {
   padding: 15px; }
@@ -222,6 +229,32 @@ a:hover {
 .footer h4 {
   text-decoration: underline;
   text-transform: uppercase; }
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.ing {
+  width: 40px;
+  height: 40px;
+  background-color: #d33df1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35%; }
+
+.fb {
+  width: 40px;
+  height: 40px;
+  background-color: #1717a7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 35%; }
 
 @media (max-width: 768px) {
   * {

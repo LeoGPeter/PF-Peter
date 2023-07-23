@@ -7,6 +7,8 @@
     text-transform: uppercase;
     background-color: gray;
     color: white;
+    min-height: 70vh;
+    background-image: radial-gradient(rgb(134, 134, 134)50%,rgb(92, 91, 91));
     
 }
 
@@ -15,6 +17,8 @@
     padding: 5px;
     margin: 5px;
 }
+
+
 
 .main article {
     display: flex;

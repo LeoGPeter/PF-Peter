@@ -12,7 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background-image: linear-gradient(to right, #9db5bb, #7fafb9); }
 
 .logo-principal {
   width: 100px;
@@ -54,7 +55,9 @@ a:hover {
   flex-wrap: wrap;
   text-transform: uppercase;
   background-color: gray;
-  color: white; }
+  color: white;
+  min-height: 70vh;
+  background-image: radial-gradient(#868686 50%, #5c5b5b); }
 
 .main h1 {
   text-transform: uppercase;
@@ -210,7 +213,8 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-image: radial-gradient(#252525, black); }
 
 .footer img {
   width: 100px; }

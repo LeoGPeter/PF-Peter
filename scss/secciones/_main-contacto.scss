@@ -16,12 +16,15 @@
     text-transform: uppercase;
     background-color: gray;
     color: white;
-    margin-top: 32vh;
+    min-height: 70vh;
+    
+    
 
 }
 
 .main-contacto div {
     margin: 5px;
+    display: flex;
 }
 
 .formulario {

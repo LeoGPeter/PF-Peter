@@ -41,14 +41,6 @@
         border-radius: 10px;
     }
 
-    .main-modelos {
-        display: flex;
-        align-content: center;
-        flex-wrap: wrap
-        
-        
-    }
-
 
     .main-modelos img {
         display: flex;
@@ -56,10 +48,16 @@
         flex-direction: row;
         justify-content: center;
         height: 310px;
+        
     }
 
     .video-catalogo {
         width: 450px;
+    }
+
+    .main-contanto{
+        margin: 10px;
+        
     }
 
     .footer {

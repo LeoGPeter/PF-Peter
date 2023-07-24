@@ -62,7 +62,10 @@ a:hover {
 .main h1 {
   text-transform: uppercase;
   padding: 5px;
-  margin: 5px; }
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
 .main article {
   display: flex;
@@ -88,7 +91,7 @@ a:hover {
   flex-wrap: wrap;
   text-transform: uppercase;
   background-color: gray;
-  margin-top: 32vh; }
+  min-height: 70vh; }
 
 .main-modelos h1 {
   text-transform: uppercase;
@@ -154,10 +157,11 @@ a:hover {
   text-transform: uppercase;
   background-color: gray;
   color: white;
-  margin-top: 32vh; }
+  min-height: 70vh; }
 
 .main-contacto div {
-  margin: 5px; }
+  margin: 5px;
+  display: flex; }
 
 .formulario {
   background-color: #535353;
@@ -287,10 +291,6 @@ a:hover {
     margin: 3px;
     padding: 3px;
     border-radius: 10px; }
-  .main-modelos {
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap; }
   .main-modelos img {
     display: flex;
     flex-wrap: wrap;
@@ -299,6 +299,8 @@ a:hover {
     height: 310px; }
   .video-catalogo {
     width: 450px; }
+  .main-contanto {
+    margin: 10px; }
   .footer {
     height: 350px;
     display: flex;

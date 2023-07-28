@@ -107,7 +107,7 @@ img:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   height: 700px;
   padding: 4px;
   width: 720px;
@@ -214,16 +214,18 @@ img:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding: 30px; }
 
 .main .chapa-pared {
-  width: 400px;
-  margin: 15px; }
+  width: 450px;
+  margin: 15px;
+  height: 550px; }
 
 .main .chapa-espejo {
   display: inline;
-  height: 350px;
+  height: 400px;
   margin: 20px; }
 
 .main .Envios {
@@ -233,6 +235,7 @@ img:hover {
 .main .formas {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 20px; }
 
